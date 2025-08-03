@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "GDB",
+            "type": "gdb",
+            "request": "launch",
+            "cwd": "${workspaceRoot}",
+            "target": "build/${workspaceFolderBasename}.ino.elf",
+            "gdbpath" : "C:\\Users\\Anna\\.espressif\\tools\\xtensa-esp32s3-elf\\esp-2022r1-11.2.0\\xtensa-esp32s3-elf\\bin\\xtensa-esp32s3-elf-gdb.exe",                
+            "autorun": [
+                "target remote localhost:3333",
+            ]
+            }
+    ]
+}

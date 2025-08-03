@@ -1,0 +1,8 @@
+{
+    "sketch": "esp32-msc-boot.ino",
+    "arduino.path": "C:\\Arduino",
+    "configuration": "JTAGAdapter=default,PSRAM=disabled,FlashMode=qio,FlashSize=8M,LoopCore=1,EventsCore=0,USBMode=default,CDCOnBoot=cdc,MSCOnBoot=msc,DFUOnBoot=default,UploadMode=default,PartitionScheme=default_8MB,CPUFreq=240,UploadSpeed=921600,DebugLevel=none,EraseFlash=none",
+    "board": "esp32:esp32:esp32s3",
+    "port": "COM14",
+    "output": "build"
+}
